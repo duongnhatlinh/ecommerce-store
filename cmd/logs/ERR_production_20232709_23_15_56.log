@@ -1,0 +1,9 @@
+[GIN] 2023/09/27 - 23:02:01 | 200 |     58.5598ms |       127.23:02:34.000 ERR Error fetching[GIN] 2023/09/27 - 23:02:34 | 400 |      1.3735ms |       127.0.0.1 | POST     "/api/signin"
+[GIN] 2023/09/27 - 23:02:54 | 200 |     523:04:25.000 ERR Error fetching user error="record not found"
+23:05:38.000 INF Discount has been deleted
+     127.0.0.1 | GET      "/api/user/?limit=3"
+[GIN] 2023/09/27 - 23:03:54 | 200 |      1.0862ms |       127.0.0.1 | GET      "/api/user/113"
+[GIN] 2023/09/27 - 23:04:25 | 400 |      1.7523ms |       127.0.0.1 | GET      "/api/user/1"
+[GIN] 2023/09/27 - 23:05:12 | 200 |       389.1µs |       127.0.0.1 | GET      "/api/user/profile"
+[GIN] 2023/09/27 - 23:05:38 | 400 |      1.6228ms |       127.0.0.1 | GET      "/api/discount/201"
+[GIN] 2023/09/27 - 23:05:52 | 200 |      1.0689ms |       127.0.0.1 | GET      "/api/discount/203"
